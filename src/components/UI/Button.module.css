@@ -1,0 +1,22 @@
+.btn {
+	background-color: #0E395C;
+	color: #fff;
+	border: 1px solid #0E395C;
+	padding: .7rem 1.5rem;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: #064273;
+	border-color: #064273;
+}
+
+.btn:disabled,
+.btn:disabled:hover,
+.btn:disabled:active {
+	background-color: #DDE2E7;
+	color: #292929;
+	cursor: not-allowed;
+}

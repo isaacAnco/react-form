@@ -1,0 +1,32 @@
+.list{
+	display: flex;
+	padding-right: 5rem;
+	align-items: center;
+	color: #010e18;
+}
+
+.cont {
+	padding: .5rem 2rem 0 0;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+.home {
+	padding: .5rem .9rem;
+}
+
+.home:hover {
+	background-color: #CDDAE5;
+	border-radius: 10px;
+}
+
+.reg {
+	padding: .5rem .9rem;
+}
+
+.reg:hover {
+	background-color: #CDDAE5;
+	border-radius: 10px;
+}
+
+

@@ -1,0 +1,65 @@
+.cont {
+  margin: 3rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.group {
+  display: flex;
+  column-gap: 6rem;
+  flex-wrap: wrap;
+}
+
+.control-group .form-control {
+  min-width: 15rem;
+  flex: 1;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control label {
+  display: block;
+  color: #010e18;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #bcd8ee;
+  width: 16rem;
+  max-width: 100%;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #bcd8ee;
+  background-color: #f2f6f9;
+}
+
+.action {
+  text-align: right;
+  margin: 0 2rem;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+}
+
+.error {
+  color: #ca3e51;
+  padding-top: .4rem;
+}
